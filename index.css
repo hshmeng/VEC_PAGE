@@ -30,7 +30,7 @@ body {
 }
 tr td {
     text-align: center;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
 }
 a {
     text-decoration: none;
