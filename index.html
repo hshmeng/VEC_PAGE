@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <title>VEC_23网安_HSHMENG</title>
-    <!--原神启动！-->
-    <style>
-        body {
-            background-color: black;
-        }
-        #div_qiantao {
-            align-content: center;
-            align-items: center;
-            align-self: center;
-            ruby-align: center;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-        #div_biaoti {/*这个css仅给标题使用“VEC_23网安”*/
-            color: white;
-            font-size: 50px;
-            font-weight: 900;
-            top: 30px;
-            position: fixed;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="VEC_PAGE_9999_SPECIAL/PROHIBIT_COPYING.css">
+    <link rel="stylesheet" type="text/css" href="VEC_PAGE_9999_TYPEFACE/TYPEFACE.css">
 </head>
 <body>
-    <div id="div_qiantao"><div id="div_biaoti">VEC_23网安</div></div>
+
+<table width="100%" id="teble_home">
+    <tr>
+        <td width="20%"><div id="div_center"><div id="div_title">VEC_23网安</div></div></td>
+        <td width="10%"></td>
+        <td width="10%"></td>
+        <td width="10%"></td>
+        <td width="40%"></td>
+        <td width="10%">
+            <ul class="first_shell">
+                <li class="first_button">
+                    <span style="font-family: AlibabaPuHuiTi-3-105-Heavy">关于我们</span>
+                    <ul>
+                        <a href="https://space.bilibili.com/2045242272" target="_blank"><li>B站</li></a>
+                        <a href="https://www.douyin.com/user/MS4wLjABAAAAXj2kScS55-mTIr4t8TRcCqP6Mfw8VcVomF9pRRssprsSYBPs8VRr1EMODmvM6CRz" target="_blank"><li>抖音</li></a>
+                        <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&_biz=MzkzNTU3MTg2Ng==" target="_blank"><li>公众号</li></a>
+                        <a><li></li></a>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<div style="position: fixed;bottom: 1%;right: 1%"><button id="themeButton">切换主题</button></div>
+<script>
+    // 这个js用来实现主题切换，也就是明暗
+    document.getElementById('themeButton').onclick = function() {
+        document.body.classList.toggle('dark-theme');
+    }
+</script>
 </body>
 </html>

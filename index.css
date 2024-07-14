@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body {
+    background-color: white;
+}
+.dark-theme {/*明暗色调*/
+    background-color: #000000;
+    color: #ffffff;
+}
+#div_center {/*这个css用来嵌套其他的div实现居中*/
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    ruby-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#div_title {/*这个css仅给标题使用“VEC_23网安”*/
+    font-family: AlibabaPuHuiTi-3-105-Heavy;
+    font-size: 50px;
+}
+#div_lishi {/*这个css用作给区块“历史记录”*/
+    top: 20%;
+    left: 10%;
+    position: fixed;
+}
+#teble_home {
+    border-collapse: collapse;
+    font-family: AlibabaPuHuiTi-3-65-Medium;
+}
+tr td {
+    text-align: center;
+    border: 1px dashed black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    font-family: AlibabaPuHuiTi-3-105-Heavy;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.first_shell{
+    display: flex;
+    justify-content: center;
+}
+.first_button {
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+.first_button:hover {
+    background-color: #8a8a8a;
+}
+.first_button li:hover {
+    background-color: #8a8a8a;
+}
+.first_button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(10px);
+    background-color: orange;
+}
+.first_button:hover li{
+    width: 100px;
+    height: 40px;
+    opacity: 1;
+    transform: translateY(0);
+}
