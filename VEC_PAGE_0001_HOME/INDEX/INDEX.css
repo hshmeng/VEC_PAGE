@@ -31,14 +31,18 @@ body {
 }
 tr td {
     text-align: center;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
 }
 a {
     text-decoration: none;
     color: black;
 }
 li {
+    color: black;
     font-family: AlibabaPuHuiTi-3-105-Heavy;
+}
+.li_none {
+    color: slategray;
 }
 ul {
     list-style-type: none;
