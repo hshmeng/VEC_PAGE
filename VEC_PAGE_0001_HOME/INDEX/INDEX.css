@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
     background-color: white;
+    transition: .3s;
 }
 .dark-theme {/*明暗色调*/
     background-color: #000000;
@@ -30,7 +31,7 @@ body {
 }
 tr td {
     text-align: center;
-    /*border: 1px dashed black;*/
+    border: 1px dashed black;
 }
 a {
     text-decoration: none;
