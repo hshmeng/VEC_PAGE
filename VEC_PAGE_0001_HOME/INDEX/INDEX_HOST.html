@@ -48,14 +48,19 @@
     <div id="overlay_title">事务处理-可以通过以下表单反映哦，我们会认真对待和处理每一个表单</br>手机端无法打开的话，请在浏览器选项中选择“查看电脑端网页”等类似功能</div>
 </div>
 <div style="position: fixed;bottom: 1%;right: 1%"><button id="themeButton">切换主题</button></div>
+<!--哥，我求你了，不要再针对我了，我现实就一臭屌丝，浑身散发阴暗气息，没有社交活动，读个破中专，
+我就想刷个抖音，玩个galama，看个番，yy，幻想，图个乐子，我就是个什么都没有的废物，天天就发呆，
+看到你们谈恋爱，我都快羡慕死了，因为我真是屌丝，我不可能笑着说我是屌丝，我心里承受能力没那么强，
+我是阴暗的死宅男，狗看见我都摇头，也给我这种人一点生存空间吧。！-->
+<div id="manbo">
+    <button id="playButton">播放</button>
+    <audio id="audioPlayer" src="曼波.mp3" type="audio/mp3"></audio>
+    <div id="progressContainer">
+        <div>绿条可以拖动（手动拖到最后面关闭）</div>
+        <div id="progressBar"></div>
+    </div>
+</div>
 <script type="text/javascript" src="OFFICE.js"></script>
-<script>
-    // 这个js用来实现主题切换，也就是明暗
-    document.getElementById('themeButton').onclick = function() {
-        document.body.classList.toggle('dark-theme');
-        document.getElementById('overlay').classList.toggle('dark-theme');
-    }
-
-</script>
+<script type="text/javascript" src="INDEX.js"></script>
 </body>
 </html>

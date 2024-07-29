@@ -68,16 +68,36 @@ ul {
 .first_button li:hover {
     background-color: #8a8a8a;
 }
-.first_button ul li{
+.first_button ul li {
     height: 0;
     transition: .2s;
     opacity: 0;
     transform: translateY(10px);
     background-color: orange;
 }
-.first_button:hover li{
+.first_button:hover li {
     width: 100px;
     height: 40px;
     opacity: 1;
     transform: translateY(0);
+}
+#manbo {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+#progressContainer {
+    width: 50%;
+    background-color: #f3f3f3;
+    position: fixed;
+    left: 50%;
+    top:98%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#progressBar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    cursor: pointer;
 }
