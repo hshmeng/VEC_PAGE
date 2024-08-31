@@ -70,7 +70,44 @@
         <div class="overlay_title">暂时没用</div>
     </div>
 </div>
-
+<div id="div_framework">
+        <table width="100%" class="table_framework">
+            <tr><!-- 第一个tr内容用来确定大小的 -->
+                <td width="25%"></td>
+                <td width="25%"></td>
+                <td width="25%"></td>
+                <td width="25%"></td>
+            </tr>
+            <tr>
+                <td height="500px"></td>
+                <td colspan="2">
+                    <div class="content">
+                        <?php
+                        $doc = new DOMDocument();
+                        $doc->loadHTMLFile('../../VEC_PAGE_1002_NEWS/VEC_PAGE_1002_INDEX.html');
+                        $xpath = new DOMXPath($doc);
+                        $ul = $xpath->query('/html/body/div[3]/ul')->item(0);
+                        echo $doc->saveHTML($ul);
+                        ?>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</div>
+<!-- 就这个弱智功能，谁爱用谁用，反正懒得写适配，哪个元素能适配就去看运气吧 -->
 <div style="position: fixed;bottom: 1%;right: 1%"><button id="themeButton">切换主题</button></div>
 <!--哥，我求你了，不要再针对我了，我现实就一臭屌丝，浑身散发阴暗气息，没有社交活动，读个破中专，
 我就想刷个抖音，玩个galama，看个番，yy，幻想，图个乐子，我就是个什么都没有的废物，天天就发呆，

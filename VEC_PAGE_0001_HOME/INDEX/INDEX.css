@@ -101,3 +101,16 @@ ul {
     background-color: #4caf50;
     cursor: pointer;
 }
+#div_framework {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    left: 10%;
+}
+#table_framework {
+    border-collapse: collapse;
+}
+.table_framework td {
+    border: 1px solid #4caf50;
+    padding: 10px;
+}
