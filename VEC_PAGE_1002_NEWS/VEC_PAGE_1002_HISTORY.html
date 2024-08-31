@@ -41,7 +41,7 @@
             fetch(`2024/${month}.txt`)
                 .then(response => response.text())
                 .then(data => {
-                    document.getElementById('content').innerHTML = data;
+                    document.getElementById('2024content').innerHTML = data;
                 })
                 .catch(error => console.error('Error loading content:', error));
         }
@@ -54,10 +54,11 @@
         <li><a href="#" onclick="loadContent('09')">2024年9月份</a></li>
         <li><a href="#" onclick="loadContent('10')">2024年10月份</a></li>
         <li><a href="#" onclick="loadContent('11')">2024年11月份</a></li>
+        <li><a href="#" onclick="loadContent('12')">2024年12月份</a></li>
         <!-- 可以继续添加更多月份的链接 -->
     </ul>
     <div id="div_year">
-        <div id="content">
+        <div id="2024content">
             <!-- HTML内容将会在这里呈现 -->
         </div>
     </div>
