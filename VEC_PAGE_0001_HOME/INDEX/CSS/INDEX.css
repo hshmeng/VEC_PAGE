@@ -25,7 +25,7 @@ body {
     left: 10%;
     position: fixed;
 }
-#teble_home {
+#table_home {
     border-collapse: collapse;
     font-family: AlibabaPuHuiTi-3-65-Medium;
 }
@@ -105,8 +105,23 @@ ul {
     top: 10%;
     right: 10%;
     left: 10%;
+    z-index: 998;
 }
 #table_framework {
-    tmargin: 0 auto;
     border-collapse: collapse;
+}
+
+.div_999{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.div_998{
+    position: fixed;
+    z-index: 998;
+}
+.div_997{
+    position: fixed;
+    z-index: 997;
 }
