@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VEC_PAGE_1002_HISTORY</title>
+    <link rel="stylesheet" type="text/css" href="../VEC_PAGE_9999_TYPEFACE/TYPEFACE.css">
+    <link rel="stylesheet" type="text/css" href="../VEC_PAGE_9999_SPECIAL/PROHIBIT_COPYING.css">
+    <style>
+        .size_h1 {
+            font-family: AlibabaPuHuiTi-3-115-Black;
+            font-size: 60px;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+        #div_year {
+            position: fixed;
+            top: 25%;
+            left: 20%;
+            right: 20%;
+        }
+        .size_moon {
+            font-family: AlibabaPuHuiTi-3-95-ExtraBold;
+            font-size: 40px;
+        }
+        .size_day {
+            font-family: AlibabaPuHuiTi-3-85-Bold;
+            font-size: 30px;
+            position: relative;
+            left: 5%;
+        }
+        .size_font {
+            font-family: AlibabaPuHuiTi-3-65-Medium;
+            font-size: 20px;
+            position: relative;
+            left: 10%;
+        }
+    </style>
+    <script>
+        function loadContent(month) {
+            fetch(`2024/${month}.txt`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading content:', error));
+        }
+    </script>
+</head>
+<body>
+    <div class="size_h1">欢迎来到页面VEC_PAGE_1002_HISTORY</div>
+    <div class="size_h1">这里有历史上载到本网页的新闻数据</div>
+    <ul>
+        <li><a href="#" onclick="loadContent('09')">2024年9月份</a></li>
+        <li><a href="#" onclick="loadContent('10')">2024年10月份</a></li>
+        <li><a href="#" onclick="loadContent('11')">2024年11月份</a></li>
+        <!-- 可以继续添加更多月份的链接 -->
+    </ul>
+    <div id="div_year">
+        <div id="content">
+            <!-- HTML内容将会在这里呈现 -->
+        </div>
+    </div>
+</body>
+</html>
