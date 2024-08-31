@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>VEC_23网安_HSHMENG</title>
-    <link rel="stylesheet" type="text/css" href="INDEX.css">
+    <link rel="stylesheet" type="text/css" href="CSS/INDEX.css">
     <link rel="stylesheet" type="text/css" href="../../VEC_PAGE_9999_SPECIAL/PROHIBIT_COPYING.css">
     <link rel="stylesheet" type="text/css" href="../../VEC_PAGE_9999_TYPEFACE/TYPEFACE.css">
-    <link rel="stylesheet" type="text/css" href="OFFICE.css">
+    <link rel="stylesheet" type="text/css" href="CSS/OFFICE.css">
     <script type="text/javascript" src="../../VEC_PAGE_9999_SPECIAL/WELCOME.js"></script>
 </head>
 <body>
@@ -71,7 +71,7 @@
     </div>
 </div>
 <div id="div_framework">
-        <table width="100%" class="table_framework">
+        <table width="100%" border="1" class="table_framework">
             <tr><!-- 第一个tr内容用来确定大小的 -->
                 <td width="25%"></td>
                 <td width="25%"></td>
@@ -79,17 +79,54 @@
                 <td width="25%"></td>
             </tr>
             <tr>
-                <td height="500px"></td>
+                <td height="600px">
+                    <div id="schedule_class"></div>
+                    <link rel="stylesheet" type="text/css" href="CSS/CLASS_OUTSIDE.css">
+                    <script type="text/javascript" src="JS/CLASS_OUTSIDE.js"></script>
+                </td>
                 <td colspan="2">
-                    <div class="content">
-                        <?php
-                        $doc = new DOMDocument();
-                        $doc->loadHTMLFile('../../VEC_PAGE_1002_NEWS/VEC_PAGE_1002_INDEX.html');
-                        $xpath = new DOMXPath($doc);
-                        $ul = $xpath->query('/html/body/div[3]/ul')->item(0);
-                        echo $doc->saveHTML($ul);
-                        ?>
+                    <div><!-- 方便折叠 -->
+                        <div id="schedule_time">
+                            <div class="schedule-item" data-time="6:15">起床铃声</div>
+                            <div class="schedule-item" data-time="6:30-6:50">晨跑</div>
+                            <div class="schedule-item" data-time="6:50-7:10">公共卫生</div>
+                            <div class="schedule-item" data-time="7:10">寝室封闭</div>
+                            <div class="schedule-item" data-time="6:50-7:30">早餐</div>
+                            <div class="schedule-item" data-time="7:45-8:00">广播操</div>
+                            <div class="schedule-item" data-time="8:05-8:45">第一节（上课中）</div>
+                            <div class="schedule-item" data-time="8:45-8:55">第一节（已下课）</div>
+                            <div class="schedule-item" data-time="8:55-9:35">第二节（上课中）</div>
+                            <div class="schedule-item" data-time="9:35-9:50">第二节（已下课）</div>
+                            <div class="schedule-item" data-time="9:35-9:40">眼保健操</div>
+                            <div class="schedule-item" data-time="9:50-10:30">第三节（上课中）</div>
+                            <div class="schedule-item" data-time="10:30-10:40">第三节（已下课）</div>
+                            <div class="schedule-item" data-time="10:40-11:20">第一批：第四节（上课中）</div>
+                            <div class="schedule-item" data-time="11:20-11:30">第一批：第四节（已下课）</div>
+                            <div class="schedule-item" data-time="10:55-11:35">第二批：第四节（上课中）</div>
+                            <div class="schedule-item" data-time="11:35-11:45">第二批：第四节（已下课）</div>
+                            <div class="schedule-item" data-time="11:20-12:10">午餐</div>
+                            <div class="schedule-item" data-time="12:10-13:10">午餐</div>
+                            <div class="schedule-item" data-time="13:10-13:50">第五节（上课中）</div>
+                            <div class="schedule-item" data-time="13:50-14:00">第五节（已下课）</div>
+                            <div class="schedule-item" data-time="14:00-14:40">第六节（上课中）</div>
+                            <div class="schedule-item" data-time="14:40-14:55">第六节（已下课）</div>
+                            <div class="schedule-item" data-time="14:40-14:45">眼保健操</div>
+                            <div class="schedule-item" data-time="14:55-15:35">第七节（上课中）</div>
+                            <div class="schedule-item" data-time="15:35-15:45">第七节（已下课）</div>
+                            <div class="schedule-item" data-time="15:45-16:25">第八节（上课中）</div>
+                            <div class="schedule-item" data-time="16:25-17:00">第八节（已下课）</div>
+                            <div class="schedule-item" data-time="17:00-18:00">晚餐</div>
+                            <div class="schedule-item" data-time="18:45-19:30">夜自修（一）（上课中）</div>
+                            <div class="schedule-item" data-time="19:30-19:40">夜自修（一）（已下课）</div>
+                            <div class="schedule-item" data-time="19:40-20:25">夜自修（二）（上课中）</div>
+                            <div class="schedule-item" data-time="20:25-21:10">夜自修（二）（已下课）</div>
+                            <div class="schedule-item" data-time="21:10-21:30">就寝</div>
+                            <div class="schedule-item" data-time="21:30-6:15">熄灯</div>
+                        </div>
+                        <div id="default-message">暂无</div>
                     </div>
+                    <link rel="stylesheet" href="CSS/TIME_NOW.css">
+                    <script type="text/javascript" src="JS/TIME_NOW.js"></script>
                 </td>
                 <td></td>
             </tr>
@@ -121,7 +158,7 @@
         <div id="progressBar"></div>
     </div>
 </div>
-<script type="text/javascript" src="INDEX.js"></script>
-<script type="text/javascript" src="OFFICE.js"></script>
+<script type="text/javascript" src="JS/INDEX.js"></script>
+<script type="text/javascript" src="JS/OFFICE.js"></script>
 </body>
 </html>

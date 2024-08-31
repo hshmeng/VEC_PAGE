@@ -1,0 +1,43 @@
+<style>
+    .table_class {
+        font-family: AlibabaPuHuiTi-3-75-SemiBold;
+        font-size: 20px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+</style>
+
+<table border="1" class="table_class">
+    <tr>
+        <td width="20px">1</td>
+        <td width="200px">数据库<br>（沈绮机房5303）</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>英语<br>（周幼娜）</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>网络安全运维<br>（刘国强机房4408）</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>网络安全运维<br>（刘国强机房4408）</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>语文<br>（郑露）</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>数学<br>（胡耀征）</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>编程基础<br>（刘金玉机房4408）</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>编程基础<br>（刘金玉机房4408）</td>
+    </tr>
+</table>

@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>课表</title>
-    <style>
-        .table_class {
-            font-family: AlibabaPuHuiTi-3-75-SemiBold;
-            font-size: 10px;
-            margin: 0 auto;
-        }
-    </style>
-</head>
+<style>
+    .table_class {
+        font-family: AlibabaPuHuiTi-3-75-SemiBold;
+        font-size: 20px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+</style>
 
 <table border="1" class="table_class">
     <tr>
-        <td>1</td>
-        <td>思政大课堂</td>
+        <td width="20px">1</td>
+        <td width="200px">思政大课堂<br>无</td>
     </tr>
     <tr>
         <td>2</td>
@@ -46,10 +41,3 @@
         <td>逆向安全<br>（刘金玉机房4408）</td>
     </tr>
 </table>
-
-<br><br><br>4-<br>5-<br>6-<br>7-<br>8-
-<body onload="getSchedule()">
-<h1>今天的课表</h1>
-<p id="schedule"></p>
-</body>
-</html>

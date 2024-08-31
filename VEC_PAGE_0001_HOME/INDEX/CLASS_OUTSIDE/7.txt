@@ -1,0 +1,10 @@
+<style>
+    .table_class {
+        font-family: AlibabaPuHuiTi-3-75-SemiBold;
+        font-size: 20px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+</style>
+
+<p>今天周日！当然也要休息啦</p>

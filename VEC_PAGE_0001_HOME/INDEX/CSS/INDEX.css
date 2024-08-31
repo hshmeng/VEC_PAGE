@@ -31,7 +31,6 @@ body {
 }
 tr td {
     text-align: center;
-    /*border: 1px dashed black;*/
 }
 a {
     text-decoration: none;
@@ -108,9 +107,6 @@ ul {
     left: 10%;
 }
 #table_framework {
+    tmargin: 0 auto;
     border-collapse: collapse;
-}
-.table_framework td {
-    border: 1px solid #4caf50;
-    padding: 10px;
 }
