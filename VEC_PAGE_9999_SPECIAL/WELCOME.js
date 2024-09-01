@@ -51,8 +51,7 @@ log.success('HSHMENG','没钱的爱情就像香蕉，不是黄了就是绿了！
 log.success('HSHMENG','钱没了可以再赚，良心没了便可以赚的更多。');
 
 console.log('🚀🚀🚀欢迎加入我们！！！');
-console.log("申请方式：hshmeng@outlook.com\n发送文本：VEC_PAGE\n等待自动发送报名模板，不会秒发可能比较久，填写完模板发送邮件\n" +
-    "模板发送规范：\n1.模板填写完成以附件的形式发送\n2.发送附件时，邮件文本输入：OFFICE_END\n3.请按照要求规范，否则不予通过")
+console.log("申请方式：hshmeng@outlook.com\n邮件标题设置：VEC_PAGE\n邮件正文中写明申请原因\n请按照要求规范，否则不予通过")
 console.log("🚀🚀🚀欢迎加入我们！！！")
 
 const users = [

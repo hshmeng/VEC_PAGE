@@ -1,15 +1,24 @@
 document.getElementById('link1').addEventListener('click', function(e) {
     e.preventDefault();
-    document.getElementById('overlay1').style.display = 'block';
+    loadIframe('overlay1', 'https://f.wps.cn/ksform/w/write/h7JmtZLR#routePromt');
 });
+
 document.getElementById('link2').addEventListener('click', function(e) {
     e.preventDefault();
-    document.getElementById('overlay2').style.display = 'block';
+    loadIframe('overlay2', 'https://kdocs.cn/l/ctYnDBOt8W3V');
 });
+
 document.getElementById('link3').addEventListener('click', function(e) {
     e.preventDefault();
-    document.getElementById('overlay3').style.display = 'block';
+    loadIframe('overlay3', '#');
 });
+
+function loadIframe(overlayId, url) {
+    var overlay = document.getElementById(overlayId);
+    var iframe = overlay.querySelector('iframe');
+    iframe.src = url;
+    overlay.style.display = 'block';
+}
 
 function closeOverlay(id) {
     document.getElementById(id).style.display = 'none';
