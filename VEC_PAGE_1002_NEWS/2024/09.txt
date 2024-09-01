@@ -2,6 +2,7 @@
             <li class="size_moon">9月</li>
             <li class="size_day">9月份（具体时间不详）</li>
             <li class="size_font">运动会</li>
+            <li class="size_font">由于9月底（待定）将举办运动会，需要开始进行项目的训练，有意向的同学来我这里报名</li>
             <li class="size_day">9月1日（星期六）</li>
             <li class="size_font">住宿学生9月1日上午7:30-10:30。<br>全体学生9月1日下午13：30到2302教室报到</li>
             <li class="size_day">9月2日（星期一）</li>
