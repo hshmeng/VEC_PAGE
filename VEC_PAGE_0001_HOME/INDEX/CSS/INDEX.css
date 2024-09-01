@@ -1,5 +1,12 @@
 @charset "UTF-8";
 body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle 50px at center, #ff9e59, #ffe3c1);
+    transition: background 0.1s ease;
+}
+body {
     background-color: white;
     transition: .3s;
 }

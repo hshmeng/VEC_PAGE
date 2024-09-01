@@ -1,55 +1,27 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>课表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动态渐变背景</title>
     <style>
-        .table_class {
-            font-family: AlibabaPuHuiTi-3-75-SemiBold;
-            font-size: 10px;
-            margin: 0 auto;
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            background: radial-gradient(circle 50px at center, #222333 0%, #222333 30%, blue 100%);
+            transition: background 0.1s ease;
         }
     </style>
 </head>
-
-<table border="1" class="table_class">
-    <tr>
-        <td>1</td>
-        <td>思政大课堂</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>数学<br>（胡耀征）</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>政治<br>（吴亚娟）</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>体育<br>（郑高南）</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>语文<br>（郑露）</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>网络安全法律法规<br>（林爽爽机房4408）</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>逆向安全<br>（刘金玉机房4408）</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>逆向安全<br>（刘金玉机房4408）</td>
-    </tr>
-</table>
-
-<br><br><br>4-<br>5-<br>6-<br>7-<br>8-
-<body onload="getSchedule()">
-<h1>今天的课表</h1>
-<p id="schedule"></p>
+<body>
+<script>
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX / window.innerWidth * 100;
+        const y = e.clientY / window.innerHeight * 100;
+        const size = 200; // 这里可以调整渐变的大小
+        document.body.style.background = `radial-gradient(circle ${size}px at ${x}% ${y}%, #222333 0%, #222333 30%, blue 100%)`;
+    });
+</script>
 </body>
 </html>
