@@ -37,22 +37,33 @@
             document.getElementById(imageId).style.display = 'block';
         }
     </script>
-    <ul>
-        <li><a style="font-family: AlibabaPuHuiTi-3-65-Medium" href="#" onclick="showImage('img01')">24-01</a></li>
-<!--        <li><a href="#" onclick="showImage('img02')">24-02</a></li>-->
-<!--        <li><a href="#" onclick="showImage('img03')">24-03</a></li>-->
-<!--        <li><a href="#" onclick="showImage('img04')">24-04</a></li>-->
-<!--        <li><a href="#" onclick="showImage('img05')">24-05</a></li>-->
-    </ul>
-    <div class="image-container">
-        <img id="img01" src="2024_VEC/24-1-01.jpg" alt="Image 01">
-        <img id="img02" src="2024_VEC/24-1-02.jpg" alt="Image 02">
-        <img id="img03" src="2024_VEC/24-1-03.jpg" alt="Image 03">
-        <img id="img04" src="2024_VEC/24-1-04.jpg" alt="Image 04">
-        <img id="img05" src="2024_VEC/24-1-05.jpg" alt="Image 05">
-    </div>
+    <table>
+        <tr>
+            <td width="20%">
+                <ul>
+                    <li><a style="font-family: AlibabaPuHuiTi-3-65-Medium" href="#" onclick="showImage('img01')">24-01</a></li>
+                    <li><a style="font-family: AlibabaPuHuiTi-3-65-Medium" href="#" onclick="showImage('img02')">24-02</a></li>
+                    <!--        <li><a href="#" onclick="showImage('img03')">24-03</a></li>-->
+                    <!--        <li><a href="#" onclick="showImage('img04')">24-04</a></li>-->
+                    <!--        <li><a href="#" onclick="showImage('img05')">24-05</a></li>-->
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td width="60%">
+                <div class="image-container">
+                    <img id="img01" src="2024_VEC/24-1-01.jpg" alt="Image 01">
+                    <img id="img02" src="2024_VEC/24-1-02.jpg" alt="Image 02">
+                    <img id="img03" src="2024_VEC/24-1-03.jpg" alt="Image 03">
+                    <img id="img04" src="2024_VEC/24-1-04.jpg" alt="Image 04">
+                    <img id="img05" src="2024_VEC/24-1-05.jpg" alt="Image 05">
+                </div>
+            </td>
+        </tr>
+    </table>
     </body>
     </html>
-
 </body>
 </html>
