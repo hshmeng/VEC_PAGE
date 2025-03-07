@@ -14,30 +14,30 @@
     </tr>
     <tr>
         <td>2</td>
-        <td>数学<br>（胡耀征）</td>
+        <td>语文</td>
     </tr>
     <tr>
         <td>3</td>
-        <td>政治<br>（吴亚娟）</td>
+        <td>网络渗透与防护）</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>体育<br>（郑高南）</td>
+        <td>网络渗透与防护</td>
     </tr>
     <tr>
         <td>5</td>
-        <td>语文<br>（郑露）</td>
+        <td>Linux操作系统</td>
     </tr>
     <tr>
         <td>6</td>
-        <td>网络安全法律法规<br>（林爽爽机房4408）</td>
+        <td>Linux操作系统</td>
     </tr>
     <tr>
         <td>7</td>
-        <td>逆向安全<br>（刘金玉机房4408）</td>
+        <td>数学</td>
     </tr>
     <tr>
         <td>8</td>
-        <td>逆向安全<br>（刘金玉机房4408）</td>
+        <td>数学</td>
     </tr>
 </table>
