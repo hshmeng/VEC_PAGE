@@ -3,6 +3,6 @@ window.onload = function() {
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent)) {
         window.location.href = "VEC_PAGE_NEW/index.html";
     } else {
-        window.location.href = "VEC_PAGE_HSHMENG/INDEX/INDEX.HOST.HTML";
+        window.location.href = "VEC_PAGE_HSHMENG/INDEX/INDEX_HOST.html";
     }
 }
