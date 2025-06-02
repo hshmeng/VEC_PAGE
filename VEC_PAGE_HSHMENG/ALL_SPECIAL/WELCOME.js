@@ -41,8 +41,9 @@ const prettyLog = () => {
 // 创建打印对象
 const log = prettyLog();
 
-log.info('HSHMENG','我们的成员：HSHMENG')
-log.info('HSHMENG','这是基础信息！');
+log.info('HSHMENG','我们的成员：HSHMENG，gouwuyu')
+log.info('HSHMENG','HSHMENG：https://github.com/hshmeng/');
+log.info('HSHMENG','gouwuyu：https://github.com/gouwuyu-q');
 log.error('HSHMENG','前方的路看似很危险,实际一点也不安全。');
 log.error('HSHMENG','出来的时候穷 生活总是让我穷 所以现在还是穷。');
 log.warning('HSHMENG','人只要肯吃苦，就有吃不完的苦！');
