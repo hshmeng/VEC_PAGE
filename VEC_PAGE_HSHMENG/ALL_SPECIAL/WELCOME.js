@@ -41,15 +41,15 @@ const prettyLog = () => {
 // 创建打印对象
 const log = prettyLog();
 
-log.info('HSHMENG','我们的成员：HSHMENG，gouwuyu')
-log.info('HSHMENG','HSHMENG：https://github.com/hshmeng/');
-log.info('HSHMENG','gouwuyu：https://github.com/gouwuyu-q');
-log.error('HSHMENG','前方的路看似很危险,实际一点也不安全。');
-log.error('HSHMENG','出来的时候穷 生活总是让我穷 所以现在还是穷。');
-log.warning('HSHMENG','人只要肯吃苦，就有吃不完的苦！');
-log.warning('HSHMENG','我并非无路可走 我还有死路一条！');
-log.success('HSHMENG','没钱的爱情就像香蕉，不是黄了就是绿了！');
-log.success('HSHMENG','钱没了可以再赚，良心没了便可以赚的更多。');
+log.info('INFO','我们的成员：HSHMENG，gouwuyu')
+log.info('INFO','HSHMENG：https://github.com/hshmeng/');
+log.info('INFO','gouwuyu：https://github.com/gouwuyu-q');
+log.error('ERROR','前方的路看似很危险,实际一点也不安全。');
+log.error('ERROR','出来的时候穷 生活总是让我穷 所以现在还是穷。');
+log.warning('WARNING','人只要肯吃苦，就有吃不完的苦！');
+log.warning('WARNING','我并非无路可走 我还有死路一条！');
+log.success('SUCCESS','没钱的爱情就像香蕉，不是黄了就是绿了！');
+log.success('SUCCESS','钱没了可以再赚，良心没了便可以赚的更多。');
 
 console.log('🚀🚀🚀欢迎加入我们！！！');
 console.log("申请方式：hshmeng@outlook.com\n邮件标题设置：VEC_PAGE\n邮件正文中写明申请原因\n请按照要求规范，否则不予通过")
