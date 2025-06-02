@@ -24,7 +24,6 @@ body {
     justify-content: center;
 }
 #div_title {/*这个css仅给标题使用“VEC_23网安”*/
-    font-family: AlibabaPuHuiTi-3-105-Heavy;
     font-size: 50px;
 }
 #div_lishi {/*这个css用作给区块“历史记录”*/
@@ -34,7 +33,6 @@ body {
 }
 #table_home {
     border-collapse: collapse;
-    font-family: AlibabaPuHuiTi-3-65-Medium;
 }
 tr td {
     text-align: center;
@@ -45,7 +43,6 @@ a {
 }
 li {
     color: black;
-    font-family: AlibabaPuHuiTi-3-105-Heavy;
 }
 .li_none {
     color: slategray;
