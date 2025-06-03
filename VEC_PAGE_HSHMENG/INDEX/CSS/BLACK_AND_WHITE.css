@@ -1,0 +1,116 @@
+/* 亮色主题样式 */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+    /* 可以为其他元素添加亮色主题样式 */
+    #div_title {
+        color: black;
+    }
+}
+
+/* 暗色主题样式 */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    /* 可以为其他元素添加暗色主题样式 */
+    #div_title {
+        color: white;
+    }
+}
+
+/* 亮色主题下的 div_framework 主页中心table 样式 */
+@media (prefers-color-scheme: light) {
+    #div_framework {
+        background-color: white; /* 亮色主题背景白色 */
+        color: black; /* 亮色主题文字黑色 */
+    }
+    #table_framework {
+        border-color: black; /* 亮色主题表格边框黑色 */
+    }
+    #div_framework table tr td {
+        border-color: black; /* 亮色主题表格单元格边框黑色 */
+    }
+}
+
+/* 暗色主题下的 div_framework 主页中心table 样式 */
+@media (prefers-color-scheme: dark) {
+    #div_framework {
+        background-color: black; /* 暗色主题背景黑色 */
+        color: white; /* 暗色主题文字白色 */
+    }
+    #table_framework {
+        border-color: white; /* 暗色主题表格边框白色 */
+    }
+    #div_framework table tr td{
+        border-color: white; /* 暗色主题表格单元格边框白色 */
+        border: 1px solid;
+    }
+}
+
+/* 亮色主题下的 schedule_class 弹窗工作界面 样式 */
+@media (prefers-color-scheme: light) {
+    #schedule_class {
+        color: black;
+    }
+    .table_class {
+        border-color: black;
+    }
+    .table_class td {
+        border-color: black;
+    }
+}
+
+/* 暗色主题下的 schedule_class 弹窗工作界面 样式 */
+@media (prefers-color-scheme: dark) {
+    #schedule_class {
+        color: white;
+    }
+    .table_class {
+        border-color: white;
+    }
+    .table_class td {
+        border-color: white;
+    }
+}
+
+/* 亮色主题下的 first_button 导航栏 样式 */
+@media (prefers-color-scheme: light) {
+    li {
+        color: black;
+    }
+    #first_button {
+        background-color: #d3d3d3;
+    }
+    .first_button:hover {
+        background-color: #a6a6a6;
+    }
+    .first_button li:hover {
+        background-color: #a6a6a6;
+    }
+    .first_button ul li {
+    background-color: #d3d3d3;
+    }
+}
+
+/* 暗色主题下的 first_button 导航栏 样式 */
+@media (prefers-color-scheme: dark) {
+    li {
+        color: white;
+    }
+    #first_button {
+        background-color: #212121;
+    }
+    .first_button:hover {
+        background-color: #1c1c1c;
+    }
+    .first_button li:hover {
+        background-color: #1c1c1c;
+    }
+    .first_button ul li {
+        background-color: #212121;
+    }
+}
