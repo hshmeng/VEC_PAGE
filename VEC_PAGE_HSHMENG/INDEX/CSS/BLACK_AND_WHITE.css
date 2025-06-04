@@ -4,20 +4,12 @@
         background-color: white;
         color: black;
     }
-    /* 可以为其他元素添加亮色主题样式 */
-    #div_title {
-        color: black;
-    }
 }
 
 /* 暗色主题样式 */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
-        color: white;
-    }
-    /* 可以为其他元素添加暗色主题样式 */
-    #div_title {
         color: white;
     }
 }

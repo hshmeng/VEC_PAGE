@@ -19,6 +19,8 @@ body {
 }
 #div_title {/*这个css仅给标题使用“VEC_23网安”*/
     font-size: 50px;
+    color: rgb(238,174,38);
+    font-weight: 1000;
 }
 #div_lishi {/*这个css用作给区块“历史记录”*/
     top: 20%;
