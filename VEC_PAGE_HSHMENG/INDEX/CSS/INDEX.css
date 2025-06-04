@@ -22,11 +22,7 @@ body {
     color: rgb(238,174,38);
     font-weight: 1000;
 }
-#div_lishi {/*这个css用作给区块“历史记录”*/
-    top: 20%;
-    left: 10%;
-    position: fixed;
-}
+
 #table_home {
     border-collapse: collapse;
 }
@@ -76,13 +72,6 @@ ul {
     left: 10%;
     z-index: 998;
 }
-
-#table_framework {
-    border-collapse: collapse;
-    /* 基础边框样式，可根据需要调整宽度和样式 */
-    border: 1px solid;
-}
-
 #table_framework td {
     /* 基础边框样式，可根据需要调整宽度和样式 */
     border: 1px solid;
@@ -103,4 +92,7 @@ ul {
     position: fixed;
     z-index: 997;
 }
-
+.xinwen p{
+    font-size: 16px;
+    margin-top: 5px;
+}
