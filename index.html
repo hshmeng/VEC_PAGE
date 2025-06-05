@@ -13,7 +13,7 @@
         }
         body {
             background: linear-gradient(135deg, #7f41bd 0%, #426fbe 100%);
-            min-height: 100vh;
+            max-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,16 +50,15 @@
         .device-info {/*大盒子*/
             display: flex;
             justify-content: space-between;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             gap: 20px;
         }
         .device-card {/*两个小盒子*/
             background: rgba(255, 255, 255, 0.1);
             border-radius: 12px;
             padding: 20px;
-            flex: 1 1 45%;
-            min-width: auto;
-            max-width: calc(50% - 10px);
+            flex: 1;
+            min-width: 200px;
             transition: transform 0.3s ease, background 0.3s ease;
         }
         .device-card:hover {
@@ -161,12 +160,9 @@
                 font-size: 2.2rem;
             }
             .device-info {
-                flex-wrap: nowrap;
                 overflow-x: auto;
             }
             .btn-container {
-
-                flex-wrap: nowrap;
                 gap: 10px;
             }
         }
