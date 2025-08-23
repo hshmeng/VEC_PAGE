@@ -1,90 +1,59 @@
-/* 亮色主题样式 */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
+/* 手动切换主题优先级 */
+:root[data-theme='light'] body,
+:root[data-theme='light'] #div_framework {
+    background-color: white !important;
+    color: black !important;
+}
+:root[data-theme='light'] #div_framework table tr td,
+:root[data-theme='light'] .table_class td {
+    border-color: black !important;
+}
+:root[data-theme='light'] li {
+    color: black !important;
+}
+:root[data-theme='light'] .first_button:hover,
+:root[data-theme='light'] .first_button li:hover {
+    background-color: #a6a6a6 !important;
+}
+:root[data-theme='light'] .first_button ul li {
+    background-color: #d3d3d3 !important;
+}
+:root[data-theme='light'] #schedule_class {
+    color: black !important;
+}
+:root[data-theme='light'] select,
+:root[data-theme='light'] option {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
 }
 
-/* 暗色主题样式 */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: white;
-    }
+/* 暗色主题 */
+:root[data-theme='dark'] body,
+:root[data-theme='dark'] #div_framework {
+    background-color: black !important;
+    color: white !important;
 }
-
-/* 亮色主题下的 div_framework 主页中心table 样式 */
-@media (prefers-color-scheme: light) {
-    #div_framework {
-        background-color: white; /* 亮色主题背景白色 */
-        color: black; /* 亮色主题文字黑色 */
-    }
-    #div_framework table tr td {
-        border-color: black; /* 亮色主题表格单元格边框黑色 */
-    }
+:root[data-theme='dark'] #div_framework table tr td,
+:root[data-theme='dark'] .table_class td {
+    border-color: white !important;
 }
-
-/* 暗色主题下的 div_framework 主页中心table 样式 */
-@media (prefers-color-scheme: dark) {
-    #div_framework {
-        background-color: black; /* 暗色主题背景黑色 */
-        color: white; /* 暗色主题文字白色 */
-    }
-    #div_framework table tr td{
-        border-color: white; /* 暗色主题表格单元格边框白色 */
-        border: 1px solid;
-    }
+:root[data-theme='dark'] li {
+    color: white !important;
 }
-
-/* 亮色主题下的 schedule_class 弹窗工作界面 样式 */
-@media (prefers-color-scheme: light) {
-    #schedule_class {
-        color: black;
-    }
-    .table_class td {
-        border-color: black;
-    }
+:root[data-theme='dark'] .first_button:hover,
+:root[data-theme='dark'] .first_button li:hover {
+    background-color: #1c1c1c !important;
 }
-
-/* 暗色主题下的 schedule_class 弹窗工作界面 样式 */
-@media (prefers-color-scheme: dark) {
-    #schedule_class {
-        color: white;
-    }
-    .table_class td {
-        border-color: white;
-    }
+:root[data-theme='dark'] .first_button ul li {
+    background-color: #212121 !important;
 }
-
-/* 亮色主题下的 first_button 导航栏 样式 */
-@media (prefers-color-scheme: light) {
-    li {
-        color: black;
-    }
-    .first_button:hover {
-        background-color: #a6a6a6;
-    }
-    .first_button li:hover {
-        background-color: #a6a6a6;
-    }
-    .first_button ul li {
-    background-color: #d3d3d3;
-    }
+:root[data-theme='dark'] #schedule_class {
+    color: white !important;
 }
-
-/* 暗色主题下的 first_button 导航栏 样式 */
-@media (prefers-color-scheme: dark) {
-    li {
-        color: white;
-    }
-    .first_button:hover {
-        background-color: #1c1c1c;
-    }
-    .first_button li:hover {
-        background-color: #1c1c1c;
-    }
-    .first_button ul li {
-        background-color: #212121;
-    }
+:root[data-theme='dark'] select,
+:root[data-theme='dark'] option {
+    background-color: #222 !important;
+    color: white !important;
+    border: 1px solid white !important;
 }

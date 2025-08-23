@@ -8,89 +8,27 @@ body {
 body {
     transition: .3s;
 }
-#div_center {/*这个css用来嵌套其他的div实现居中*/
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    ruby-align: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-#div_title {/*这个css仅给标题使用“VEC_23网安”*/
-    font-size: 50px;
-    color: rgb(238,174,38);
-    font-weight: 1000;
-}
-
-#table_home {
-    border-collapse: collapse;
-}
 tr td {
     text-align: center;
 }
-a {
-    text-decoration: none;
+a  {
+    text-decoration: none;/*删除所有情况下a标签的下划线*/
 }
-
-.li_none {
-    color: slategray;
+/* 新闻显示 */
+td[colspan="2"] {
+    vertical-align: top !important;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.news-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
-.first_shell{
-    display: flex;
-    justify-content: center;
-}
-.first_button {
-    width: 100px;
-    height: 40px;
+.news-section h1 {
     text-align: center;
-    line-height: 40px;
-    transition: .3s;
-    cursor: pointer;
+    margin-bottom: 10px;
 }
-.first_button ul li {
-    height: 0;
-    transition: .2s;
-    opacity: 0;
-    transform: translateY(10px);
-}
-.first_button:hover li {
-    width: 100px;
-    height: 40px;
-    opacity: 1;
-    transform: translateY(0);
-}
-#div_framework {
-    position: fixed;
-    top: 10%;
-    right: 10%;
-    left: 10%;
-    z-index: 998;
-}
-#table_framework td {
-    /* 基础边框样式，可根据需要调整宽度和样式 */
-    border: 1px solid;
-    text-align: center;
-}
-
-.div_999{
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 999;
-}
-.div_998{
-    position: fixed;
-    z-index: 998;
-}
-.div_997{
-    position: fixed;
-    z-index: 997;
+.news-section h3 {
+    text-align: left;
+    margin-left: 0;
 }
 .xinwen p{
     font-size: 16px;

@@ -1,0 +1,25 @@
+.first_button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+.first_button ul li {
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(10px);
+}
+.first_button:hover li {
+    width: 100px;
+    height: 40px;
+    opacity: 1;
+    transform: translateY(0);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

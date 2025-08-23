@@ -31,31 +31,3 @@
     left: 20px;
     font-size: 25px;
 }
-
-/* 亮色主题下的 overlay 样式 */
-@media (prefers-color-scheme: light) {
-    .overlay {
-        background-color: #f8f8f8;
-        border: 1px solid #ddd;
-    }
-    .overlay iframe {
-        background-color: white;
-    }
-    .overlay_title {
-        color: black;
-    }
-}
-
-/* 暗色主题下的 overlay 样式 */
-@media (prefers-color-scheme: dark) {
-    .overlay {
-        background-color: #333;
-        border: 1px solid #666;
-    }
-    .overlay iframe {
-        background-color: black;
-    }
-    .overlay_title {
-        color: white;
-    }
-}

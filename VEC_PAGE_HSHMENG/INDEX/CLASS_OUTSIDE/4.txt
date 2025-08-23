@@ -9,34 +9,6 @@
 <table border="1" class="table_class">
     <tr>
         <td width="20px">1</td>
-        <td width="200px">英语</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>英语</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>漏洞扫描与防护</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>漏洞扫描与防护</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>网页设计与部署</td>
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>网页设计与部署</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>体育</td>
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>语文</td>
+        <td width="200px">暂无</td>
     </tr>
 </table>

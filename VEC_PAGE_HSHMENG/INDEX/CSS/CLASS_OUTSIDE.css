@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #schedule_class {
     font-size: 20px;
     font-weight: bold;
@@ -11,19 +12,4 @@
     cursor: pointer;
     outline: none;
     margin-bottom: 15px;
-}
-/* 亮色主题下的 day-selector 下拉框 样式 */
-@media (prefers-color-scheme: light) {
-    #day-selector {
-        background-color: white;
-        color: black;
-    }
-}
-
-/* 暗色主题下的 day-selector 下拉框 样式 */
-@media (prefers-color-scheme: dark) {
-    #day-selector {
-        background-color: black;
-        color: white;
-    }
 }
