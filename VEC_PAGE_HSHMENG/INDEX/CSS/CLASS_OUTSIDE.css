@@ -1,10 +1,10 @@
 @charset "UTF-8";
+/* 课程表 */
 #schedule_class {
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
 }
-/* 下拉框 */
 #day-selector {
     padding: 8px 15px;
     border-radius: 4px;

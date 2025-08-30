@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 手动切换主题优先级 */
 :root[data-theme='light'] body,
 :root[data-theme='light'] #div_framework {
@@ -26,6 +27,9 @@
     background-color: white !important;
     color: black !important;
     border: 1px solid black !important;
+}
+:root[data-theme='dark'] .overlay {
+    background-color: white !important;
 }
 
 /* 暗色主题 */
@@ -56,4 +60,7 @@
     background-color: #222 !important;
     color: white !important;
     border: 1px solid white !important;
+}
+:root[data-theme='dark'] .overlay {
+    background-color: black !important;
 }
